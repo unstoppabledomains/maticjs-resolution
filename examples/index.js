@@ -1,7 +1,7 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider')
 const { POSClient, use } = require('@maticnetwork/maticjs')
 const { Web3ClientPlugin } = require("@maticnetwork/maticjs-web3");
-const { UnstoppableDomainsClientPlugin } = require("../src");
+const { UnstoppableDomainsClientPlugin } = require("../lib");
 
 use(Web3ClientPlugin);
 use(UnstoppableDomainsClientPlugin)
