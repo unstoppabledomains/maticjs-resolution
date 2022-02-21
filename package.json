@@ -1,15 +1,41 @@
 {
-  "name": "maticjs-resolution",
-  "version": "1.0.0",
+  "name": "@unstoppabledomains/resolution",
+  "version": "1.1.1",
   "description": "Unstoppable Domains resolution plugin for matic.js",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node src/index.ts",
     "build": "tsc --build"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Nick Raienko <https://github.com/enaqx>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unstoppabledomains/maticjs-resolution"
+  },
+  "bugs": {
+    "type": "git",
+    "url": "https://github.com/unstoppabledomains/maticjs-resolution/issues"
+  },
+  "homepage": "https://github.com/unstoppabledomains/maticjs-resolution#readme",
+  "keywords": [
+    "cns",
+    ".crypto",
+    "zns",
+    "ethereum",
+    "zilliqa",
+    "blockchain",
+    "resolution",
+    "name",
+    "domain",
+    "unstoppable",
+    "polygon",
+    "matic"
+  ],
+  "license": "MIT",
+  "publicConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "@maticnetwork/maticjs": "^3.2.2"
   },
