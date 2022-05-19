@@ -78,8 +78,6 @@ const getPOSClient = (network = 'testnet', version = 'mumbai') => {
 const execute = async () => {
   const client = await getPOSClient()
 
-  const erc20Token = client.erc20(config.child.erc20)
-
   const addr = client.client.unstoppableDomains.addr('brad.crypto', 'ETH')
  
   console.log('resolved address', await addr)
@@ -90,6 +88,6 @@ execute()
   .catch(err => {
     console.error('err', err)
   })
-  .finally(_ => {
+  .finally(() => {
     process.exit(0)
   })

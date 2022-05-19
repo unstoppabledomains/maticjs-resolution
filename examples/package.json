@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node index.ts"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +13,8 @@
     "@maticnetwork/maticjs-web3": "^1.0.1",
     "@truffle/hdwallet-provider": "^2.0.3",
     "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.5.0"
   }
 }
